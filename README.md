@@ -29,15 +29,24 @@ Unlike junior/mid-level prep that focuses exclusively on LeetCode heuristics, th
 │
 ├── docs/                                 # Full Educational Lessons & Publication Pipeline
 │   ├── lessons/
-│   │   ├── 01-Spec-Driven-Development-Google-Methodology.md
-│   │   ├── 02-Data-Structures-and-Algorithms-Deep-Dive.md
-│   │   ├── 03-Modern-Java-25-Concurrency-and-Internals.md
-│   │   ├── 04-Google-Scale-System-Design-Blueprints.md
-│   │   └── 05-Googleyness-Leadership-and-Behavioral-Rounds.md
-│   ├── book.typ                          # Typst Publication Book Template
-│   ├── generate_pdf.py                   # Automated PDF Generation Script
+│   │   ├── tr/                           # Türkçe Markdown Dersleri (Bölüm 1 - 5)
+│   │   │   ├── 01-Spec-Driven-Development-Google-Metodolojisi.md
+│   │   │   ├── 02-Veri-Yapilari-ve-Ileri-Algoritmalar-Detayli-Rehber.md
+│   │   │   ├── 03-Modern-Java-25-Concurrency-ve-Dahili-Yapi.md
+│   │   │   ├── 04-Google-Scale-Dagitik-Sistem-Tasarimi-Mimarileri.md
+│   │   │   └── 05-Googleyness-Liderlik-ve-Davranissal-Mulakatlar.md
+│   │   └── en/                           # English Markdown Lessons (Chapters 1 - 5)
+│   │       ├── 01-Spec-Driven-Development-Google-Methodology.md
+│   │       ├── 02-Data-Structures-and-Algorithms-Deep-Dive.md
+│   │       ├── 03-Modern-Java-25-Concurrency-and-Internals.md
+│   │       ├── 04-Google-Scale-System-Design-Blueprints.md
+│   │       └── 05-Googleyness-Leadership-and-Behavioral-Rounds.md
+│   ├── book.typ                          # English Typst Template
+│   ├── book_tr.typ                       # Türkçe Typst Şablonu
+│   ├── generate_pdf.py                   # Automated Bilingual PDF Generation Script
 │   └── pdf/
-│       └── Google_Senior_SWE_Master_Guide.pdf # Publication-Grade PDF Book
+│       ├── Google_Senior_SWE_Master_Guide_TR.pdf # Türkçe Derlenmiş Master PDF Kitabı
+│       └── Google_Senior_SWE_Master_Guide_EN.pdf # English Compiled Master PDF Book
 │
 └── src/
     ├── main/java/com/google/prep/
